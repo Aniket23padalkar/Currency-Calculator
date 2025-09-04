@@ -76,6 +76,7 @@ form i {
 #to {
     height: 1.3rem;
     border: none;
+    outline: none;
 }
 
 #message {

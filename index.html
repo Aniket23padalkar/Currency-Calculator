@@ -25,23 +25,30 @@
                 <p>Select Currency:</p>
                 <div id="select-container">
                     <div class="select">
-                        <img src="https://flagsapi.com/BE/flat/64.png" />
-                        <select name="From" id="from">
-                            <option value="IND">IND</option>
-                        </select>
+                        <img
+                            class="country"
+                            src="https://flagsapi.com/US/flat/64.png"
+                        />
+                        <select
+                            class="main-select"
+                            name="from"
+                            id="from"
+                        ></select>
                     </div>
                     <i class="fa-solid fa-right-left"></i>
                     <div class="select">
-                        <img src="https://flagsapi.com/BE/flat/64.png" />
-                        <select name="To" id="to">
-                            <option value="IND">IND</option>
-                        </select>
+                        <img
+                            class="country"
+                            src="https://flagsapi.com/IN/flat/64.png"
+                        />
+                        <select class="main-select" name="to" id="to"></select>
                     </div>
                 </div>
-                <div id="message">Converted</div>
+                <div id="message">Result</div>
                 <button id="button">Convert</button>
             </form>
         </div>
+        <script src="codes.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
