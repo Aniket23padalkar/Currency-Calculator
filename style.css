@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #3e0703;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 1px solid black;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-color: #eeeeee;
+    justify-content: space-between;
+}
+
+#amt-input {
+    height: 2rem;
+    outline: none;
+    border: 1px solid rgb(141, 141, 141);
+    padding: 0 0.5rem 0 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+form p {
+    font-size: 1.1rem;
+}
+
+#select-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+form img {
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.select {
+    border: 1px solid rgb(141, 141, 141);
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+form i {
+    font-size: 2rem;
+}
+
+#from,
+#to {
+    height: 1.3rem;
+    border: none;
+}
+
+#message {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#button {
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff0066;
+    color: white;
+    cursor: pointer;
+}

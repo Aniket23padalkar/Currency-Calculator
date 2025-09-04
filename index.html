@@ -16,17 +16,26 @@
     <body>
         <div class="wrapper">
             <form>
-                <p>Enter Amount</p>
-                <input type="number" placeholder="Enter Amount" />
+                <p>Amount:</p>
+                <input
+                    id="amt-input"
+                    type="number"
+                    placeholder="Enter Amount"
+                />
+                <p>Select Currency:</p>
                 <div id="select-container">
                     <div class="select">
                         <img src="https://flagsapi.com/BE/flat/64.png" />
-                        <select name="From" id="from"></select>
+                        <select name="From" id="from">
+                            <option value="IND">IND</option>
+                        </select>
                     </div>
                     <i class="fa-solid fa-right-left"></i>
                     <div class="select">
                         <img src="https://flagsapi.com/BE/flat/64.png" />
-                        <select name="To" id="to"></select>
+                        <select name="To" id="to">
+                            <option value="IND">IND</option>
+                        </select>
                     </div>
                 </div>
                 <div id="message">Converted</div>
