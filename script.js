@@ -30,13 +30,13 @@ for (let select of mainSelect) {
         const option = document.createElement("option");
         option.innerText = currCode;
         option.value = currCode;
+        select.appendChild(option);
 
         if (select.name === "from" && currCode === "USD") {
             option.selected = true;
         } else if (select.name === "to" && currCode === "INR") {
             option.selected = true;
         }
-        select.appendChild(option);
     }
 
     select.addEventListener("change", (e) => {

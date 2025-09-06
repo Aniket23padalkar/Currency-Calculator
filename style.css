@@ -30,9 +30,15 @@ form {
     width: 20rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     background-color: #eeeeee;
     justify-content: space-between;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 #amt-input {
